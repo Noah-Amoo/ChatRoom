@@ -23,12 +23,12 @@ nav {
 
 main {
     flex-grow: 1;
-    display: grid;
-    place-content: center;
+    display: block;
+    /* place-content: center; */
 }
 
 h1, p {
-    text-align: center;
+    margin-left: 15px;
 }
 
 a {
