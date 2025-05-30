@@ -57,3 +57,60 @@ a:hover {
     max-width: 800px;
     margin-top: 10px;
 }
+
+/* Suggestion: Place in static/css/forms.css and link in your layout.html */
+
+/* Style the form container */
+.form-with-validation {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem 2.5rem;
+    /* background: #f9f9fb; */
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e0e0e0;
+}
+
+/* Style form fields */
+.form-with-validation input {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #fff;
+    transition: border 0.2s;
+}
+
+.form-with-validation input:focus {
+    border-color: #6c63ff;
+    outline: none;
+}
+
+/* Style the submit button */
+.form-Submit {
+    background: #6c63ff;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    
+}
+
+.form-Submit:hover {
+    background: #554ee2;
+}
+
+/* Optional: Style error messages if using Django forms */
+.errorlist {
+    color: #d8000c;
+    background: #ffd2d2;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+}
