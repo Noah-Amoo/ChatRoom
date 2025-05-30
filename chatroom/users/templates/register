@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock title %}
+
+{% block content %}
+    <section>
+       User Registration
+    </section>
+{% endblock content %}
